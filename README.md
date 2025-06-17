@@ -1,5 +1,5 @@
 # Chatbot
-This is an interactive chatbot system that supports end-to-end traffic prediction tasks through natural language. It integrates powerful large language models (LLMs) including GPT-3.5 and DeepSeek to enable a fully automated forecasting workflow.
+This is an interactive chatbot system that supports end-to-end traffic prediction tasks through natural language. It integrates powerful large language models (LLMs) including **GPT-3.5** and **DeepSeek** to enable a fully automated forecasting workflow.
 
 # Key Features
 
@@ -68,4 +68,29 @@ LLMs generate concise captions and summaries for user interpretation.
 Supports summarization across multiple predictions (trend extraction).
 
 
-# If you're interested in the project or would like to collaborate, feel free to reach out!
+# Getting Started
+
+1. Clone this repo:
+ 
+`git clone https://github.com/IrisJiayao/chatbot.git`
+`cd chatbot`
+
+
+2. Install dependencies:
+
+`pip install -r requirements.txt`
+
+
+3. Set your OpenAI key in .env or environment:
+
+`export OPENAI_API_KEY=your-key-here`
+
+
+4. Run the backend server:
+
+`python server.py`
+
+
+5. Start chatting via client or integrate your own UI.
+
+## If you're interested in the project or would like to collaborate, feel free to reach out!
