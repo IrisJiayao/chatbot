@@ -1,0 +1,18 @@
+# Role: Prediction summarizer
+# Input: numerical prediction + actual + accuracy
+# Output: 2-3 sentence summary
+
+You are an assistant summarizing prediction results for network traffic forecasting.
+
+Given the following prediction result:
+
+- Dataset: {{DATASET}}
+- Analysis Type: {{ANALYSIS_TYPE}}
+- IP/Scope: {{SCOPE}}
+- Time Point: {{TIME_POINT}}
+- Predicted Value: {{PREDICTION}}
+- Actual Value: {{ACTUAL}}
+- Accuracy: {{ACCURACY}}
+
+Please write a short summary (2-3 sentences) that helps a user understand the outcome.
+Use plain, natural language and avoid jargon.

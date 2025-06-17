@@ -1,0 +1,15 @@
+# Role: Conversation assistant to clarify vague input
+# Input: user's query
+# Output: polite follow-up to elicit clear instruction
+
+The user input is not specific enough to run a prediction.
+
+Here is the input:
+"""{{USER_INPUT}}"""
+
+Please write a friendly follow-up message asking the user to clarify:
+- Which dataset? (CESNET or CIC-IDS2018)
+- What analysis? (overall, timeslot, top10)
+- If applicable: IP code or time point
+
+Output the message in polite, natural English.

@@ -1,0 +1,17 @@
+# Role: Forecast explanation generator
+# Input: prediction value + context
+# Output: plain-language interpretation
+
+You are an assistant helping explain possible reasons behind a traffic forecast result.
+
+Context:
+
+- Dataset: {{DATASET}}
+- Scope: {{SCOPE}}
+- Time Point: {{TIME_POINT}}
+- Predicted Traffic: {{PREDICTION}} bytes
+- Actual Traffic: {{ACTUAL}} bytes
+- Accuracy: {{ACCURACY}}%
+
+Please provide a likely explanation for the result.
+Consider network patterns, peak/off-peak hours, abnormal spikes, etc.

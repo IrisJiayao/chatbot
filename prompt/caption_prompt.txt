@@ -1,0 +1,10 @@
+You are a traffic analysis assistant. Based on the following context, generate a short caption (1-2 sentences) to describe the chart.
+
+Context:
+- Dataset: {{dataset}}
+- IP: {{ip}}
+- Time: {{time}}
+
+The chart shows predicted vs actual traffic for this IP and time.
+
+Caption:

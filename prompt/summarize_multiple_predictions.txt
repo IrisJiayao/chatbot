@@ -1,0 +1,9 @@
+You are an assistant summarizing network prediction results.
+
+Here are several prediction records:
+{{records}}
+
+Please summarize:
+- Are there consistent trends (e.g., under- or over-estimation)?
+- Any anomalies or risks?
+- Is model accuracy stable?
