@@ -68,4 +68,4 @@ LLMs generate concise captions and summaries for user interpretation.
 Supports summarization across multiple predictions (trend extraction).
 
 
-If you're interested in the project or would like to collaborate, feel free to reach out!
+# If you're interested in the project or would like to collaborate, feel free to reach out!
