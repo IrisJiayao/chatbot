@@ -1,4 +1,4 @@
-# chatbot
+# Chatbot
 This is an interactive chatbot system that supports end-to-end traffic prediction tasks through natural language. It integrates powerful large language models (LLMs) including GPT-3.5 and DeepSeek to enable a fully automated forecasting workflow.
 
 # Key Features
