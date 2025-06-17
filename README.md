@@ -93,4 +93,29 @@ Supports summarization across multiple predictions (trend extraction).
 
 5. Start chatting via client or integrate your own UI.
 
+# Project Structure
+
+```
+chatbot/
+│
+├── llm_utils.py              # Unified LLM calling interface
+├── server.py                 # Main socket server for interaction
+├── prompts/                  # Prompt templates for LLM tasks
+├── adapters/
+│   ├── CESNETInferenceAdapter.py
+│   └── CICInferenceAdapter.py
+├── data/                     # Sample data files (time series)
+├── temporal_fusion_transformer.py                   # TFT models (pretrained or loadable)
+├── visualizations/           # Auto-generated prediction graphs
+├── client.py                 # socket client
+├── gui_client.py             # GUI client
+├── infer.py                 # Main function prediction
+├── trainer.py               # Model training entrance
+|── logs/                     # Prediction logs with summaries
+└──...
+```
+
+
+
+
 ## If you're interested in the project or would like to collaborate, feel free to reach out!
